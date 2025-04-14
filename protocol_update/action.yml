@@ -16,7 +16,10 @@ inputs:
     default: ${{ github.token }}
   ZENODO_SANDBOX:
     description: >
-      A token used to update the DOI on https://sandbox.zenodo.org/.
+      Token used to create a new Zenodo deposit or update an existing Zenodo
+      deposit (https://sandbox.zenodo.org/).
+      The associated DOI will be added or updated in the YAML front matter of
+      the protocol's index.Rmd file.
     default: ""
 runs:
   using: 'docker'

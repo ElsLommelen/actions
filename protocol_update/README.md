@@ -1,3 +1,3 @@
 # protocol_update
 
-Dedicated Github action to add information on the new protocol to `.zenodo.json` and the general `NEWS.md` in repository `github.com/inbo/protocolsource` by running `protocolhelper` functions `update_zenodo()`, `update_news_release()` and `update_doi()`.
+Dedicated Github action to add information on the new protocol to `.zenodo.json` and the general `NEWS.md` in repository `github.com/inbo/protocolsource` by running `protocolhelper` internal functions `update_zenodo()`, `update_news_release()` and `update_doi()`.

@@ -16,6 +16,6 @@ inputs:
     default: ${{ github.token }}
 runs:
   using: 'docker'
-  image: docker://inbobmk/protocols
+  image: docker://inbobmk/protocols:test
   env:
     GITHUB_PAT: ${{ inputs.PAT }}

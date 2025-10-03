@@ -29,7 +29,7 @@ inputs:
       Name of branch that was merged in the main during the push that triggers this action.
 runs:
   using: 'docker'
-  image: docker://inbobmk/protocols
+  image: docker://inbobmk/protocols:test
   entrypoint: '/entrypoint_website.sh'
   env:
     GITHUB_PAT: ${{ inputs.PAT }}

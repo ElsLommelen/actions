@@ -27,7 +27,7 @@ inputs:
     default: ""
 runs:
   using: 'docker'
-  image: docker://inbobmk/protocols
+  image: docker://inbobmk/protocols:test
   entrypoint: '/entrypoint_update.sh'
   env:
     GITHUB_PAT: ${{ inputs.PAT }}
